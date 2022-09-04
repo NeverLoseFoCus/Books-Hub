@@ -1,0 +1,155 @@
+.SingleBook-img {
+    width: 200px;
+    border-radius: 10px;
+    transition: 0.2s ease-in;
+}
+
+.SingleBook-img:hover {
+    transform: scale(1.01) translateY(1.5px);
+}
+
+.SingleBook-bookmark:hover {
+    color: yellow;
+}
+
+.SingleBook-image-container {
+    position: relative;
+}
+
+.SingleBook-addToFav {
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    width: 50px;
+    position: absolute;
+    top: 0;
+    right: 0.1;
+}
+
+.SingleBook-bookmark {
+    width: 1.5em !important;
+    height: 1.5em !important;
+    color: white;
+    margin-top: -5px;
+    transition: 0.3s ease-in-out !important;
+}
+
+.SingleBook {
+    transition: 0.2s ease-in-out;
+}
+
+
+.SingleBook-h3 {
+    text-align: center;
+}
+
+.SingleBook-link {
+    text-decoration: none;
+    color: black;
+}
+
+.SingleBook-icons-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+
+.SingleBook-icon {
+    transition: 0.2s ease-in-out !important;
+}
+
+.SingleBook-icon:hover {
+    transform: translateY(-1px) scale(1.1);
+}
+
+.SingleBook-icon-margin {
+    margin-left: 75px !important;
+    margin-right: 8px !important;
+}
+
+.SingleBook-noBooks-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.SingleBook-header {
+    font-size: 23px;
+}
+
+.active {
+    color: yellow;
+}
+
+
+@media (max-width: 632px) {
+    .SingleBook-img {
+        width: 170px;
+    }
+    .SingleBook-h3 {
+        font-size: 16px;
+        font-weight: 900;
+    }
+}
+
+@media (max-width: 429px) {
+    .SingleBook-img {
+        width: 130px;
+    }
+    .SingleBook-h3 {
+        font-size: 15px;
+        font-weight: 900;
+    }
+    .SingleBook-icon {
+        min-width: 35px !important;
+    }
+    .SingleBook-icon-margin {
+        margin-left: 50px ;
+    }
+    .SingleBook-icon-content {
+        width: 0.8em !important;
+        height: 0.8em !important;
+    }
+    .SingleBook-modal {
+        width: 350px !important;
+    }
+    .SingleBook-h3 {
+        width: 130px;
+    }
+}
+
+@media (max-width: 327px) {
+    .SingleBook-img {
+        width: 110px;
+    }
+    .SingleBook-h3 {
+        font-size: 14px;
+        font-weight: 900;
+        width: 110px;
+    }
+}
+
+@media (max-height: 550px) and (orientation: landscape) {
+    .SingleBook-img {
+        width: 130px;
+    }
+    .SingleBook-h3 {
+        font-size: 15px;
+        font-weight: 900;
+    }
+    .SingleBook-icon {
+        min-width: 35px !important;
+    }
+    .SingleBook-icon-margin {
+        margin-left: 50px ;
+    }
+    .SingleBook-icon-content {
+        width: 0.8em !important;
+        height: 0.8em !important;
+    }
+    .SingleBook-modal {
+        width: 350px !important;
+    }
+    .SingleBook-h3 {
+        width: 130px;
+    }
+}

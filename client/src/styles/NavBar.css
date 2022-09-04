@@ -1,0 +1,9 @@
+.AppBar {
+    background-color: white;
+    
+}
+
+.NavBar a {
+    color: black;
+    text-decoration: none;
+}

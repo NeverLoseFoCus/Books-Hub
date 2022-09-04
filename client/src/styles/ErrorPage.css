@@ -1,0 +1,16 @@
+.ErrorPage {
+    display: flex;
+    justify-content: center;
+}
+
+.ErrorPage-container {
+    background-color: rgba(247, 2, 2, 0.541);
+    width: 90%;
+    border-radius: 5px;
+}
+
+.ErrorPage-content {
+    padding: 20px;
+    color: white;
+    text-shadow: 5px 5px 20px rgb(156, 15, 15);
+}

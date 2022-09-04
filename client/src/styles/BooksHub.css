@@ -1,0 +1,12 @@
+.booksContainer {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: space-around;
+    width: 100%;
+}
+
+@media (max-width: 780px) {
+    .booksContainer {
+        grid-template-columns: repeat(2, auto);
+    }
+}
